@@ -1,4 +1,4 @@
-package kr.co.agramar.iterator;
+package kr.co.agramar.iterator.exam01;
 
 // 서가를 나타내는 클래스
 public class BookShelf {

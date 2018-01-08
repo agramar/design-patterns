@@ -1,4 +1,4 @@
-package kr.co.agramar.iterator;
+package kr.co.agramar.iterator.test01;
 
 // 집합체를 나타내는 인터페이스
 public interface Aggregate {

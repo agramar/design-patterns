@@ -1,4 +1,4 @@
-package kr.co.agramar.iterator;
+package kr.co.agramar.iterator.exam01;
 
 // 동작 테스트용 클래스
 public class Main {

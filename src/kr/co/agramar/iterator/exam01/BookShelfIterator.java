@@ -1,4 +1,4 @@
-package kr.co.agramar.iterator;
+package kr.co.agramar.iterator.exam01;
 
 // 서가를 검색하는 클래스
 public class BookShelfIterator implements Iterator {
