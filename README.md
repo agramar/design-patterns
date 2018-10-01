@@ -10,9 +10,5 @@
 ### 04. Factory Method Pattern - 하위 클래스에서 인스터스 만들기
 
 ### 05. Singleton Pattern - 인스턴스를 한 개만 만들기
-- Exam01
-- Test01
-- Test02
-- Test03
 
 ### 06. Prototype - 복사해서 인스턴스 만들기
