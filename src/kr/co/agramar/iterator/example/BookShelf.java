@@ -1,8 +1,11 @@
 package kr.co.agramar.iterator.example;
 
+import kr.co.agramar.iterator.Aggregate;
+import kr.co.agramar.iterator.Iterator;
+
 // 서가를 나타내는 클래스
-public class BookShelf {
-	private Book[] books;
+public class BookShelf implements Aggregate {
+	private final Book[] books;
 	private int last = 0;
 	
 	public BookShelf(int maxSize) {
@@ -22,6 +25,7 @@ public class BookShelf {
 		return last;
 	}
 	
+	@Override
 	public Iterator iterator() {
 		return new BookShelfIterator(this);
 	}

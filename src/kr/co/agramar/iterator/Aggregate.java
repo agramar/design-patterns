@@ -1,6 +1,6 @@
-package kr.co.agramar.iterator.test01;
+package kr.co.agramar.iterator;
 
 // 집합체를 나타내는 인터페이스
 public interface Aggregate {
-	public abstract Iterator iterator();
+    Iterator iterator();
 }

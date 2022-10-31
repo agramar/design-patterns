@@ -1,4 +1,4 @@
-package kr.co.agramar.abstractfactory;
+package kr.co.agramar.abstractFactory;
 
 import kr.co.agramar.abstractFactory.factory.Factory;
 

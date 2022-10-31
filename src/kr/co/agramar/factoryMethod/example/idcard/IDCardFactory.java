@@ -8,7 +8,7 @@ import kr.co.agramar.factoryMethod.example.Product;
 
 public class IDCardFactory extends Factory {
 	
-	private List<String> owners = new ArrayList<String>();
+	private final List<String> owners = new ArrayList<>();
 
 	@Override
 	protected Product createProduct(String owner) {

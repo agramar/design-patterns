@@ -4,7 +4,7 @@ import kr.co.agramar.factoryMethod.example.Product;
 
 public class IDCard extends Product {
 
-	private String owner;
+	private final String owner;
 
 	IDCard(String owner) {
 		System.out.println(owner + "의 카드를 만듭니다.");

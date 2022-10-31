@@ -1,8 +1,10 @@
 package kr.co.agramar.iterator.example;
 
+import kr.co.agramar.iterator.Iterator;
+
 // 서가를 검색하는 클래스
 public class BookShelfIterator implements Iterator {
-	private BookShelf bookShelf;
+	private final BookShelf bookShelf;
 	private int index;
 	
 	public BookShelfIterator(BookShelf bookShelf) {
@@ -12,11 +14,7 @@ public class BookShelfIterator implements Iterator {
 
 	@Override
 	public boolean hasNext() {
-		if (index < bookShelf.getLength()) {
-			return true;
-		} else {
-			return false;
-		}
+		return index < bookShelf.getLength();
 	}
 
 	@Override
