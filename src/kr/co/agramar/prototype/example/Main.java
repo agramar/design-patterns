@@ -20,5 +20,4 @@ public class Main {
         Product p3 = manager.create("slash box");
         p3.use("Hello, world.");
     }
-
 }

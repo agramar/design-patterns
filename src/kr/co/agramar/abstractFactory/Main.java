@@ -1,6 +1,9 @@
 package kr.co.agramar.abstractFactory;
 
 import kr.co.agramar.abstractFactory.factory.Factory;
+import kr.co.agramar.abstractFactory.factory.Item;
+
+import java.util.logging.Logger;
 
 public class Main {
 	public static void main(String[] args) {
@@ -12,7 +15,6 @@ public class Main {
 		}
 
 		Factory factory = Factory.getFactory(args[0]);
-
-		
+		Item item = factory.createTray("tray");
 	}
 }

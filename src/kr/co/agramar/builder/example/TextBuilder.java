@@ -1,6 +1,6 @@
 package kr.co.agramar.builder.example;
 
-public class TextBuilder extends Builder {
+public class TextBuilder implements Builder {
     private final StringBuffer buffer = new StringBuffer();
 
     @Override
