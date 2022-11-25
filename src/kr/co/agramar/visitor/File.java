@@ -24,5 +24,4 @@ public class File extends Entry {
     public void accept(Visitor v) {
         v.visit(this);
     }
-
 }
