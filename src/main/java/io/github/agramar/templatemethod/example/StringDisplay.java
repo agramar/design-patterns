@@ -1,4 +1,4 @@
-package io.github.agramar.templateMethod.example;
+package io.github.agramar.templatemethod.example;
 
 // 메소드 open, print, close를 구현하고 있는 클래스
 public class StringDisplay extends AbstractDisplay {

@@ -1,4 +1,4 @@
-package io.github.agramar.abstractFactory.factory;
+package io.github.agramar.abstractfactory.factory;
 
 public abstract class Factory {
 	public static Factory getFactory(String className) {

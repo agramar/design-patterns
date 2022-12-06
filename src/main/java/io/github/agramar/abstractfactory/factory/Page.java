@@ -1,4 +1,4 @@
-package io.github.agramar.abstractFactory.factory;
+package io.github.agramar.abstractfactory.factory;
 
 import java.io.FileWriter;
 import java.io.IOException;

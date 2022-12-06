@@ -1,4 +1,4 @@
-package io.github.agramar.templateMethod.example;
+package io.github.agramar.templatemethod.example;
 
 // 메소드 display만 구현되고 있는 추상 클래스
 public abstract class AbstractDisplay {

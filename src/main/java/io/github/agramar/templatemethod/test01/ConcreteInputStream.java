@@ -1,4 +1,4 @@
-package io.github.agramar.templateMethod.test01;
+package io.github.agramar.templatemethod.test01;
 
 import java.io.IOException;
 import java.io.InputStream;

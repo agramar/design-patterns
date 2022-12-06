@@ -1,7 +1,7 @@
-package io.github.agramar.abstractFactory;
+package io.github.agramar.abstractfactory;
 
-import io.github.agramar.abstractFactory.factory.Factory;
-import io.github.agramar.abstractFactory.factory.Item;
+import io.github.agramar.abstractfactory.factory.Factory;
+import io.github.agramar.abstractfactory.factory.Item;
 
 public class Main {
 	public static void main(String[] args) {

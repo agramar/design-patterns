@@ -1,4 +1,4 @@
-package io.github.agramar.abstractFactory.factory;
+package io.github.agramar.abstractfactory.factory;
 
 public abstract class Item {
 	protected String caption;
